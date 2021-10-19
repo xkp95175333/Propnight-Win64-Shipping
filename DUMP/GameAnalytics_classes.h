@@ -1,0 +1,33 @@
+// Class GameAnalytics.GameAnalytics
+// Size: 0x28 (Inherited: 0x28)
+struct UGameAnalytics : UObject {
+
+	void SetCustomDimension03(struct FString CustomDimension); // Function GameAnalytics.GameAnalytics.SetCustomDimension03 // (Final|Native|Static|Public|BlueprintCallable) // @ game+0xa6ddc0
+	void SetCustomDimension02(struct FString CustomDimension); // Function GameAnalytics.GameAnalytics.SetCustomDimension02 // (Final|Native|Static|Public|BlueprintCallable) // @ game+0xa6dd30
+	void SetCustomDimension01(struct FString CustomDimension); // Function GameAnalytics.GameAnalytics.SetCustomDimension01 // (Final|Native|Static|Public|BlueprintCallable) // @ game+0xa6dca0
+	void OnQuit(); // Function GameAnalytics.GameAnalytics.OnQuit // (Final|Native|Static|Public|BlueprintCallable) // @ game+0xa6dc80
+	bool IsRemoteConfigsReady(); // Function GameAnalytics.GameAnalytics.IsRemoteConfigsReady // (Final|Native|Static|Public|BlueprintCallable) // @ game+0xa6dc50
+	struct FString GetRemoteConfigsValueAsStringWithDefaultValue(struct FString Key, struct FString DefaultValue); // Function GameAnalytics.GameAnalytics.GetRemoteConfigsValueAsStringWithDefaultValue // (Final|Native|Static|Public|BlueprintCallable) // @ game+0xa6db10
+	struct FString GetRemoteConfigsValueAsString(struct FString Key); // Function GameAnalytics.GameAnalytics.GetRemoteConfigsValueAsString // (Final|Native|Static|Public|BlueprintCallable) // @ game+0xa6da30
+	struct FString GetRemoteConfigsContentAsString(); // Function GameAnalytics.GameAnalytics.GetRemoteConfigsContentAsString // (Final|Native|Static|Public|BlueprintCallable) // @ game+0xa6d9b0
+	struct FString GetABTestingVariantId(); // Function GameAnalytics.GameAnalytics.GetABTestingVariantId // (Final|Native|Static|Public|BlueprintCallable) // @ game+0xa6d930
+	struct FString GetABTestingId(); // Function GameAnalytics.GameAnalytics.GetABTestingId // (Final|Native|Static|Public|BlueprintCallable) // @ game+0xa6d8b0
+	void AddResourceEvent(enum class EGAResourceFlowType FlowType, struct FString Currency, float Amount, struct FString ItemType, struct FString ItemId); // Function GameAnalytics.GameAnalytics.AddResourceEvent // (Final|Native|Static|Public|BlueprintCallable) // @ game+0xa6d6e0
+	void AddProgressionEventWithOneTwoThreeAndScore(enum class EGAProgressionStatus ProgressionStatus, struct FString Progression01, struct FString Progression02, struct FString Progression03, int32_t Score); // Function GameAnalytics.GameAnalytics.AddProgressionEventWithOneTwoThreeAndScore // (Final|Native|Static|Public|BlueprintCallable) // @ game+0xa6d520
+	void AddProgressionEventWithOneTwoAndThree(enum class EGAProgressionStatus ProgressionStatus, struct FString Progression01, struct FString Progression02, struct FString Progression03); // Function GameAnalytics.GameAnalytics.AddProgressionEventWithOneTwoAndThree // (Final|Native|Static|Public|BlueprintCallable) // @ game+0xa6d3a0
+	void AddProgressionEventWithOneTwoAndScore(enum class EGAProgressionStatus ProgressionStatus, struct FString Progression01, struct FString Progression02, int32_t Score); // Function GameAnalytics.GameAnalytics.AddProgressionEventWithOneTwoAndScore // (Final|Native|Static|Public|BlueprintCallable) // @ game+0xa6d230
+	void AddProgressionEventWithOneAndTwo(enum class EGAProgressionStatus ProgressionStatus, struct FString Progression01, struct FString Progression02); // Function GameAnalytics.GameAnalytics.AddProgressionEventWithOneAndTwo // (Final|Native|Static|Public|BlueprintCallable) // @ game+0xa6d100
+	void AddProgressionEventWithOneAndScore(enum class EGAProgressionStatus ProgressionStatus, struct FString Progression01, int32_t Score); // Function GameAnalytics.GameAnalytics.AddProgressionEventWithOneAndScore // (Final|Native|Static|Public|BlueprintCallable) // @ game+0xa6cfe0
+	void AddProgressionEventWithOne(enum class EGAProgressionStatus ProgressionStatus, struct FString Progression01); // Function GameAnalytics.GameAnalytics.AddProgressionEventWithOne // (Final|Native|Static|Public|BlueprintCallable) // @ game+0xa6cf10
+	void AddErrorEvent(enum class EGAErrorSeverity Severity, struct FString Message); // Function GameAnalytics.GameAnalytics.AddErrorEvent // (Final|Native|Static|Public|BlueprintCallable) // @ game+0xa6ce40
+	void AddDesignEventWithValue(struct FString EventId, float Value); // Function GameAnalytics.GameAnalytics.AddDesignEventWithValue // (Final|Native|Static|Public|BlueprintCallable) // @ game+0xa6cd60
+	void AddDesignEvent(struct FString EventId); // Function GameAnalytics.GameAnalytics.AddDesignEvent // (Final|Native|Static|Public|BlueprintCallable) // @ game+0xa6ccd0
+	void AddBusinessEventIOS(struct FString Currency, int32_t Amount, struct FString ItemType, struct FString ItemId, struct FString CartType, struct FString Receipt); // Function GameAnalytics.GameAnalytics.AddBusinessEventIOS // (Final|Native|Static|Public|BlueprintCallable) // @ game+0xa6caa0
+	void AddBusinessEventAndroid(struct FString Currency, int32_t Amount, struct FString ItemType, struct FString ItemId, struct FString CartType, struct FString Receipt, struct FString Signature); // Function GameAnalytics.GameAnalytics.AddBusinessEventAndroid // (Final|Native|Static|Public|BlueprintCallable) // @ game+0xa6c810
+	void AddBusinessEventAndAutoFetchReceipt(struct FString Currency, int32_t Amount, struct FString ItemType, struct FString ItemId, struct FString CartType); // Function GameAnalytics.GameAnalytics.AddBusinessEventAndAutoFetchReceipt // (Final|Native|Static|Public|BlueprintCallable) // @ game+0xa6c640
+	void AddBusinessEvent(struct FString Currency, int32_t Amount, struct FString ItemType, struct FString ItemId, struct FString CartType); // Function GameAnalytics.GameAnalytics.AddBusinessEvent // (Final|Native|Static|Public|BlueprintCallable) // @ game+0xa6c470
+	void AddAdEventWithNoAdReason(enum class EGAAdAction Action, enum class EGAAdType adType, struct FString adSdkName, struct FString adPlacement, enum class EGAAdError noAdReason); // Function GameAnalytics.GameAnalytics.AddAdEventWithNoAdReason // (Final|Native|Static|Public|BlueprintCallable) // @ game+0xa6c2c0
+	void AddAdEventWithDuration(enum class EGAAdAction Action, enum class EGAAdType adType, struct FString adSdkName, struct FString adPlacement, int64_t Duration); // Function GameAnalytics.GameAnalytics.AddAdEventWithDuration // (Final|Native|Static|Public|BlueprintCallable) // @ game+0xa6c110
+	void AddAdEvent(enum class EGAAdAction Action, enum class EGAAdType adType, struct FString adSdkName, struct FString adPlacement); // Function GameAnalytics.GameAnalytics.AddAdEvent // (Final|Native|Static|Public|BlueprintCallable) // @ game+0xa6bfa0
+};
+

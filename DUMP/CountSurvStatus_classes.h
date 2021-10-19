@@ -1,0 +1,196 @@
+// WidgetBlueprintGeneratedClass CountSurvStatus.CountSurvStatus_C
+// Size: 0x6e1 (Inherited: 0x260)
+struct UCountSurvStatus_C : UUserWidget {
+	struct FPointerToUberGraphFrame UberGraphFrame; // 0x260(0x08)
+	struct UWidgetAnimation* Reanimate; // 0x268(0x08)
+	struct UWidgetAnimation* hit; // 0x270(0x08)
+	struct UImage* BG_2; // 0x278(0x08)
+	struct UCanvasPanel* CanvasPanel_separator; // 0x280(0x08)
+	struct UProgressBar* HealthProgress_Additional; // 0x288(0x08)
+	struct UProgressBar* HealthProgress_Ally; // 0x290(0x08)
+	struct UProgressBar* HealthProgress_Ally_Additional; // 0x298(0x08)
+	struct UProgressBar* HealthProgress_blocked; // 0x2a0(0x08)
+	struct UProgressBar* HealthProgress_Default; // 0x2a8(0x08)
+	struct UTextBlock* HealthText; // 0x2b0(0x08)
+	struct UHitBlur_C* HitBlur_Additional; // 0x2b8(0x08)
+	struct UHitBlur_C* HitBlur_Ally; // 0x2c0(0x08)
+	struct UHitBlur_C* HitBlur_Default; // 0x2c8(0x08)
+	struct UHorizontalBox* HorizontalBox_4; // 0x2d0(0x08)
+	struct UHorizontalBox* HorizontalBox_5; // 0x2d8(0x08)
+	struct UImage* Image; // 0x2e0(0x08)
+	struct UImage* Image_2; // 0x2e8(0x08)
+	struct UImage* Image_3; // 0x2f0(0x08)
+	struct UImage* Image_4; // 0x2f8(0x08)
+	struct UImage* Image_6; // 0x300(0x08)
+	struct UImage* Image_14; // 0x308(0x08)
+	struct UImage* Image_97; // 0x310(0x08)
+	struct UImage* Image_163; // 0x318(0x08)
+	struct UImage* Image_175; // 0x320(0x08)
+	struct UImage* Image_226; // 0x328(0x08)
+	struct UImage* Image_230; // 0x330(0x08)
+	struct UImage* Image_553; // 0x338(0x08)
+	struct UImage* Image_3535; // 0x340(0x08)
+	struct UImage* Image_ActiveSelf; // 0x348(0x08)
+	struct UImage* Image_ActiveSelf_BG; // 0x350(0x08)
+	struct UImage* Image_Ally_Chair_Progress; // 0x358(0x08)
+	struct UImage* Image_Ally_Injured_Progress; // 0x360(0x08)
+	struct UImage* Image_AllyIndicator2; // 0x368(0x08)
+	struct UImage* Image_AllylIndicator1; // 0x370(0x08)
+	struct UImage* Image_ChairAlly; // 0x378(0x08)
+	struct UImage* Image_ChairAlly_BG; // 0x380(0x08)
+	struct UImage* Image_ChairSelf; // 0x388(0x08)
+	struct UImage* Image_ChairSelf_BG; // 0x390(0x08)
+	struct UImage* Image_DeadAlly; // 0x398(0x08)
+	struct UImage* Image_DeadAlly_BG; // 0x3a0(0x08)
+	struct UImage* Image_DeadSelf; // 0x3a8(0x08)
+	struct UImage* Image_DeadSelf_BG; // 0x3b0(0x08)
+	struct UImage* Image_DefaultIconAlly; // 0x3b8(0x08)
+	struct UImage* Image_DefaultIconAlly_BG; // 0x3c0(0x08)
+	struct UImage* Image_EscapedIconAlly; // 0x3c8(0x08)
+	struct UImage* Image_EscapedIconAlly_BG; // 0x3d0(0x08)
+	struct UImage* Image_FreeSelf; // 0x3d8(0x08)
+	struct UImage* Image_FreeSelf_BG; // 0x3e0(0x08)
+	struct UImage* Image_Green; // 0x3e8(0x08)
+	struct UImage* Image_Grey; // 0x3f0(0x08)
+	struct UImage* Image_HealthAlly; // 0x3f8(0x08)
+	struct UImage* Image_HealthAlly_BG; // 0x400(0x08)
+	struct UImage* Image_knockSelf; // 0x408(0x08)
+	struct UImage* Image_knockSelf_BG; // 0x410(0x08)
+	struct UImage* Image_Red; // 0x418(0x08)
+	struct UImage* Image_Red_Crawl_Chair; // 0x420(0x08)
+	struct UImage* Image_SeflIndicator_2; // 0x428(0x08)
+	struct UImage* Image_SeflIndicator_3; // 0x430(0x08)
+	struct UImage* Image_VoiceAlly; // 0x438(0x08)
+	struct UImage* Image_VoiceSelf; // 0x440(0x08)
+	struct UImage* Image_White_Alive; // 0x448(0x08)
+	struct UImage* Item1; // 0x450(0x08)
+	struct UImage* Item1_2; // 0x458(0x08)
+	struct UImage* Item2; // 0x460(0x08)
+	struct UImage* Item2_2; // 0x468(0x08)
+	struct UImage* Item3; // 0x470(0x08)
+	struct UImage* Item3_2; // 0x478(0x08)
+	struct UOverlay* Items; // 0x480(0x08)
+	struct UOverlay* Items_2; // 0x488(0x08)
+	struct UTextBlock* MaxHealthText; // 0x490(0x08)
+	struct UTextBlock* MiniStatusText_Time; // 0x498(0x08)
+	struct UTextBlock* MiniStatusText_Time_2; // 0x4a0(0x08)
+	struct UTextBlock* MiniStatusText_Time_3; // 0x4a8(0x08)
+	struct UTextBlock* MiniStatusText_Time_4; // 0x4b0(0x08)
+	struct UTextBlock* Nickname_Ally; // 0x4b8(0x08)
+	struct UTextBlock* Nickname_Ally_Hunter; // 0x4c0(0x08)
+	struct UTextBlock* Nickname_Self; // 0x4c8(0x08)
+	struct UProgressBar* ProgressBar_2; // 0x4d0(0x08)
+	struct UProgressBar* ProgressBar_AllyKnock; // 0x4d8(0x08)
+	struct UProgressBar* ProgressBar_AllyOnChair; // 0x4e0(0x08)
+	struct UProgressBar* ProgressBar_SelfReanimate; // 0x4e8(0x08)
+	struct UProgressBar* RedBlurHealthProgress_Additional; // 0x4f0(0x08)
+	struct UProgressBar* RedBlurHealthProgress_Ally; // 0x4f8(0x08)
+	struct UProgressBar* RedBlurHealthProgress_Default; // 0x500(0x08)
+	struct URetainerBox* RetainerBox; // 0x508(0x08)
+	struct URetainerBox* RetainerBox_98; // 0x510(0x08)
+	struct URetainerBox* RetainerBox_155; // 0x518(0x08)
+	struct URetainerBox* RetainerBox_303; // 0x520(0x08)
+	struct URetainerBox* RetainerBox_313; // 0x528(0x08)
+	struct URetainerBox* RetainerBox_413; // 0x530(0x08)
+	struct URetainerBox* RetainerBox_418; // 0x538(0x08)
+	struct URetainerBox* RetainerBox_463; // 0x540(0x08)
+	struct URetainerBox* RetainerBox_606; // 0x548(0x08)
+	struct URetainerBox* RetainerBox_Active; // 0x550(0x08)
+	struct UScaleBox* ScaleBox_Owner; // 0x558(0x08)
+	struct USizeBox* SizeBox_HealthBar_Ally; // 0x560(0x08)
+	struct USizeBox* SizeBox_HealthBar_Ally_Additional; // 0x568(0x08)
+	struct USizeBox* SizeBox_HelathBars; // 0x570(0x08)
+	struct USizeBox* SizeBox_HP; // 0x578(0x08)
+	struct USizeBox* SizeBox_HP_Additional; // 0x580(0x08)
+	struct UWidgetSwitcher* StatusSwitcherIcons; // 0x588(0x08)
+	struct UWidgetSwitcher* StatusSwitcherIcons_Ally; // 0x590(0x08)
+	struct UWidgetSwitcher* Switch_2; // 0x598(0x08)
+	struct UTextBlock* TextBlock_2; // 0x5a0(0x08)
+	struct UTextBlock* TextBlock_4; // 0x5a8(0x08)
+	struct UTextBlock* TextBlock_308; // 0x5b0(0x08)
+	struct UVerticalBox* VerticalBox_Chair_IndicatorAlly; // 0x5b8(0x08)
+	struct UWidgetSwitcher* WidgetSwitcher_795; // 0x5c0(0x08)
+	struct UWidgetSwitcher* WidgetSwitcher_Banned; // 0x5c8(0x08)
+	struct UWidgetSwitcher* WidgetSwitcher_BlockSelf?; // 0x5d0(0x08)
+	struct UWidgetSwitcher* WidgetSwitcher_ChairBlock?; // 0x5d8(0x08)
+	struct UWidgetSwitcher* WidgetSwitcher_Health; // 0x5e0(0x08)
+	struct UWidgetSwitcher* WidgetSwitcher_Ministatus; // 0x5e8(0x08)
+	struct UWidgetSwitcher* WidgetSwitcher_StatusCircle; // 0x5f0(0x08)
+	struct UWidgetSwitcher* WidgetSwitcher_StatusCircle_Ally; // 0x5f8(0x08)
+	struct FText textCount; // 0x600(0x18)
+	bool OnChair?; // 0x618(0x01)
+	bool Self?; // 0x619(0x01)
+	char pad_61A[0x6]; // 0x61a(0x06)
+	struct ASurvivorMasterBP_C* Surv; // 0x620(0x08)
+	int32_t PrevHealth; // 0x628(0x04)
+	bool Hitted?; // 0x62c(0x01)
+	char pad_62D[0x3]; // 0x62d(0x03)
+	float DeltaTime; // 0x630(0x04)
+	bool EndBlurEffect?; // 0x634(0x01)
+	char pad_635[0x3]; // 0x635(0x03)
+	int32_t ActualHealth; // 0x638(0x04)
+	float Speed; // 0x63c(0x04)
+	bool Escape?; // 0x640(0x01)
+	bool Block?; // 0x641(0x01)
+	char pad_642[0x2]; // 0x642(0x02)
+	int32_t PrevHealth_Ally; // 0x644(0x04)
+	int32_t ActualHealth_Ally; // 0x648(0x04)
+	bool It'sME?; // 0x64c(0x01)
+	char pad_64D[0x3]; // 0x64d(0x03)
+	int32_t TimeSelfReanimate; // 0x650(0x04)
+	int32_t TimeSelfOnChair; // 0x654(0x04)
+	int32_t TimeSelfOnChair_Banned; // 0x658(0x04)
+	char pad_65C[0x4]; // 0x65c(0x04)
+	struct FS_PlayerIconsSurv Out Row Self; // 0x660(0x40)
+	int32_t ControllerIND; // 0x6a0(0x04)
+	enum class E_HealthBarType HealthBarType; // 0x6a4(0x01)
+	char pad_6A5[0x3]; // 0x6a5(0x03)
+	float Max Health Calculate Value; // 0x6a8(0x04)
+	float Max HP; // 0x6ac(0x04)
+	float MinRangeHP_Default; // 0x6b0(0x04)
+	float MaxRangeHP_Default; // 0x6b4(0x04)
+	float MinRangeHP_Additional; // 0x6b8(0x04)
+	float MaxRangeHP_Additional; // 0x6bc(0x04)
+	struct UMaterialInstanceDynamic* AllyInjuredMaterial; // 0x6c0(0x08)
+	struct UMaterialInstanceDynamic* AllyChairMaterial; // 0x6c8(0x08)
+	bool IsDead; // 0x6d0(0x01)
+	bool IsAnimating; // 0x6d1(0x01)
+	char pad_6D2[0x6]; // 0x6d2(0x06)
+	struct FTimerHandle AnimTimerHanle; // 0x6d8(0x08)
+	bool NeedStopAnim; // 0x6e0(0x01)
+
+	struct FText Get_MaxHealthText_Text_1(); // Function CountSurvStatus.CountSurvStatus_C.Get_MaxHealthText_Text_1 // (Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x132e1a0
+	float Get_HealthProgress_Ally_Additional_Percent_1(); // Function CountSurvStatus.CountSurvStatus_C.Get_HealthProgress_Ally_Additional_Percent_1 // (Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x132e1a0
+	float Get Health Progress Ally Additional Percent(); // Function CountSurvStatus.CountSurvStatus_C.Get Health Progress Ally Additional Percent // (Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x132e1a0
+	float Get Health Progress Ally Small Percent Health Small(); // Function CountSurvStatus.CountSurvStatus_C.Get Health Progress Ally Small Percent Health Small // (Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x132e1a0
+	enum class ESlateVisibility Get Visibility Additional Health(); // Function CountSurvStatus.CountSurvStatus_C.Get Visibility Additional Health // (Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x132e1a0
+	float Get_HealthProgress_blocked_Percent_1(); // Function CountSurvStatus.CountSurvStatus_C.Get_HealthProgress_blocked_Percent_1 // (Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x132e1a0
+	float Get_ProgressBar_AllyOnChair_Percent_1(); // Function CountSurvStatus.CountSurvStatus_C.Get_ProgressBar_AllyOnChair_Percent_1 // (Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x132e1a0
+	float Get Health Progress Ally Percent Main Health Bar(); // Function CountSurvStatus.CountSurvStatus_C.Get Health Progress Ally Percent Main Health Bar // (Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x132e1a0
+	struct FLinearColor Get_HealthProgress_FillColorAndOpacity_1(); // Function CountSurvStatus.CountSurvStatus_C.Get_HealthProgress_FillColorAndOpacity_1 // (Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x132e1a0
+	enum class ESlateVisibility Get_Item3_Visibility_1(); // Function CountSurvStatus.CountSurvStatus_C.Get_Item3_Visibility_1 // (Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x132e1a0
+	enum class ESlateVisibility Get_Item2_Visibility_1(); // Function CountSurvStatus.CountSurvStatus_C.Get_Item2_Visibility_1 // (Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x132e1a0
+	enum class ESlateVisibility Get_Item1_Visibility_1(); // Function CountSurvStatus.CountSurvStatus_C.Get_Item1_Visibility_1 // (Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x132e1a0
+	struct FSlateBrush Get_Item3_Brush_1(); // Function CountSurvStatus.CountSurvStatus_C.Get_Item3_Brush_1 // (Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x132e1a0
+	struct FSlateBrush Get_Item2_Brush_1(); // Function CountSurvStatus.CountSurvStatus_C.Get_Item2_Brush_1 // (Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x132e1a0
+	struct FSlateBrush Get_Item1_Brush_1(); // Function CountSurvStatus.CountSurvStatus_C.Get_Item1_Brush_1 // (Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x132e1a0
+	enum class ESlateVisibility Get_Items_Visibility_1(); // Function CountSurvStatus.CountSurvStatus_C.Get_Items_Visibility_1 // (Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x132e1a0
+	float Self Reanimate Progress(); // Function CountSurvStatus.CountSurvStatus_C.Self Reanimate Progress // (Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x132e1a0
+	void OnChairBlockedTime(); // Function CountSurvStatus.CountSurvStatus_C.OnChairBlockedTime // (Public|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x132e1a0
+	float OnChairTime(); // Function CountSurvStatus.CountSurvStatus_C.OnChairTime // (Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x132e1a0
+	float StaminaBar(); // Function CountSurvStatus.CountSurvStatus_C.StaminaBar // (Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x132e1a0
+	void Tick(struct FGeometry MyGeometry, float InDeltaTime); // Function CountSurvStatus.CountSurvStatus_C.Tick // (BlueprintCosmetic|Event|Public|BlueprintEvent) // @ game+0x132e1a0
+	void ChangeStatus(enum class SurvStatusEnum Status); // Function CountSurvStatus.CountSurvStatus_C.ChangeStatus // (BlueprintCallable|BlueprintEvent) // @ game+0x132e1a0
+	void LoadPlayer(struct ASurvivorMasterBP_C* SurvActor); // Function CountSurvStatus.CountSurvStatus_C.LoadPlayer // (BlueprintCallable|BlueprintEvent) // @ game+0x132e1a0
+	void HealthChange(); // Function CountSurvStatus.CountSurvStatus_C.HealthChange // (BlueprintCallable|BlueprintEvent) // @ game+0x132e1a0
+	void TextColorLerp(); // Function CountSurvStatus.CountSurvStatus_C.TextColorLerp // (BlueprintCallable|BlueprintEvent) // @ game+0x132e1a0
+	void SetIndexStatusCircle(int32_t Index); // Function CountSurvStatus.CountSurvStatus_C.SetIndexStatusCircle // (BlueprintCallable|BlueprintEvent) // @ game+0x132e1a0
+	void UpdateAllyHealthBar(); // Function CountSurvStatus.CountSurvStatus_C.UpdateAllyHealthBar // (BlueprintCallable|BlueprintEvent) // @ game+0x132e1a0
+	void UpdateAllyAdditionHP(); // Function CountSurvStatus.CountSurvStatus_C.UpdateAllyAdditionHP // (BlueprintCallable|BlueprintEvent) // @ game+0x132e1a0
+	void Construct(); // Function CountSurvStatus.CountSurvStatus_C.Construct // (BlueprintCosmetic|Event|Public|BlueprintEvent) // @ game+0x132e1a0
+	void StartAnimationHP(); // Function CountSurvStatus.CountSurvStatus_C.StartAnimationHP // (BlueprintCallable|BlueprintEvent) // @ game+0x132e1a0
+	void AnimTick(); // Function CountSurvStatus.CountSurvStatus_C.AnimTick // (BlueprintCallable|BlueprintEvent) // @ game+0x132e1a0
+	void StopAnimHP(); // Function CountSurvStatus.CountSurvStatus_C.StopAnimHP // (BlueprintCallable|BlueprintEvent) // @ game+0x132e1a0
+	void ExecuteUbergraph_CountSurvStatus(int32_t EntryPoint); // Function CountSurvStatus.CountSurvStatus_C.ExecuteUbergraph_CountSurvStatus // (Final|UbergraphFunction|HasDefaults) // @ game+0x132e1a0
+};
+

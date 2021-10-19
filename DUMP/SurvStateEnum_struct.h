@@ -1,0 +1,27 @@
+// UserDefinedEnum SurvStateEnum.SurvStateEnum
+enum class SurvStateEnum : uint8 {
+	NewEnumerator16,
+	NewEnumerator21,
+	NewEnumerator22,
+	NewEnumerator23,
+	NewEnumerator24,
+	NewEnumerator25,
+	NewEnumerator26,
+	NewEnumerator27,
+	NewEnumerator28,
+	NewEnumerator29,
+	NewEnumerator30,
+	NewEnumerator31,
+	NewEnumerator32,
+	NewEnumerator33,
+	NewEnumerator34,
+	NewEnumerator36,
+	NewEnumerator37,
+	NewEnumerator38,
+	NewEnumerator39,
+	NewEnumerator40,
+	NewEnumerator41,
+	NewEnumerator42,
+	SurvStateEnum_MAX,
+};
+

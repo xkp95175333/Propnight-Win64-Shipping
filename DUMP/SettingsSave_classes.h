@@ -1,0 +1,26 @@
+// BlueprintGeneratedClass SettingsSave.SettingsSave_C
+// Size: 0x155 (Inherited: 0x28)
+struct USettingsSave_C : USaveGame {
+	struct FText Graphiccommand; // 0x28(0x18)
+	struct FText PPCommand; // 0x40(0x18)
+	struct FText AACommand; // 0x58(0x18)
+	struct FText ShadowCommand; // 0x70(0x18)
+	struct FText TQCommand; // 0x88(0x18)
+	struct FText EQCommand; // 0xa0(0x18)
+	struct FText ResolutionCommand; // 0xb8(0x18)
+	struct FText ScreenCommand; // 0xd0(0x18)
+	struct FText BMCommand; // 0xe8(0x18)
+	struct FText VSyncCommand; // 0x100(0x18)
+	struct FText AAMCommand; // 0x118(0x18)
+	float SoundSettingsMain; // 0x130(0x04)
+	float SoundSettingsMusic; // 0x134(0x04)
+	float SoundSettingsSFX; // 0x138(0x04)
+	float Sensivity; // 0x13c(0x04)
+	float XAxis; // 0x140(0x04)
+	float YAxis; // 0x144(0x04)
+	float VoiceVolume; // 0x148(0x04)
+	float VoiceBoostVolume; // 0x14c(0x04)
+	float MusicBG; // 0x150(0x04)
+	bool IsVoiceChatMuted?; // 0x154(0x01)
+};
+
